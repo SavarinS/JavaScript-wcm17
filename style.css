@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Gudea|Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+
+
+body {
+  font-family: 'Gudea', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* style header */
+h1 {
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  letter-spacing: 2px;
+}
+header h1 {
+  color: rgb(129, 207, 224);
+}
+header {
+  text-align: center;
+}
+.teacherName, .time {
+  font-style: italic;
+}
+
+/* style wrapper */
+.wrapper {
+  width: 69%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+/* style navigation */
+nav {
+  width: 18%;
+  float: left;
+  margin-left: 40px;
+  margin-right: 10px;
+  position: fixed;
+
+}
+li {
+  padding: 20px;
+  background-color: rgb(129, 207, 224);
+  list-style: none;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 7px #999;
+}
+
+ a {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(191, 191, 191);
+  border-style: none;
+}
+
+/* style section */
+section h1 {
+  background-color: rgb(191, 191, 191);
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.content {
+  padding: 35px;
+}
+
+/* style image and caption*/
+
+figure {
+  background-color: rgba(191, 191, 191, 0.3);
+  border-radius: 20px;
+  padding: 15px;
+}
+#imageForText0, #imageForText1 {
+  float: right;
+}
+
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+#imageForText0 figcaption ,#imageForText1 figcaption {
+  text-align: center;
+}
+
+#imageForText3 .image {
+  width: 40%;
+}
+
+/* style scroll to top button */
+.scrollTop {
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: rgb(129, 207, 224);
+  padding: 20px;
+  /* cursor: pointer; */
+}
+
+.scrollTop a {
+  font-size: 18px;
+  color: #fff;
+}
